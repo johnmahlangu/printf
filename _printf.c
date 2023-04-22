@@ -52,6 +52,7 @@ int _printf(const char *format, ...)
 		}
 		else	
 		{
+			printf("%c", format[i]);
 			len++;
 		}
 	}
