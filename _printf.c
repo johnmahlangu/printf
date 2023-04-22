@@ -46,12 +46,8 @@ int _printf(const char *format, ...)
 					d = va_arg(args, int);
 					printf("%d", d);
 					break;
-				case 'i':
-					i = va_arg(args, int);
-					printf("%i", i);
-					break;
 				case '%':
-					printf("%");
+					printf("%c", '%');
 					len++;
 					break;
 				default:
