@@ -51,8 +51,8 @@ int _printf(const char *format, ...)
 					printf("%i", i);
 					break;
 				case '%':
-					printf("%%");
-					len = len + 2;
+					printf("%");
+					len++;
 					break;
 				default:
 					printf("%c", c);
