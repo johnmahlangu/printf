@@ -32,7 +32,10 @@ int _printf(const char *format, ...)
 			{
 				case 's':
 					s = va_arg(args, char *);
-					for (cnt = 0; s[cnt] != '\0'; cnt++);
+					for (cnt = 0; s[cnt] != '\0'; cnt++)
+					{
+
+					}
 					len += cnt;
 					printf("%s", s);
 					break;
@@ -50,11 +53,12 @@ int _printf(const char *format, ...)
 					len++;
 			}
 		}
-		else	
+		else
 		{
 			printf("%c", format[i]);
 			len++;
 		}
 	}
+	va_end(args);
 	return (len);
 }
