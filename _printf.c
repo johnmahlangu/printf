@@ -48,11 +48,11 @@ int _printf(const char *format, ...)
 					break;
 				case 'd':
 					d = va_arg(args, int);
-					printf("%d", d);
+					len += printf("%d", d);
 					break;
 				case 'i':
 					j = va_arg(args, int);
-					printf("%i", j);
+					len += printf("%i", j);
 					break;
 				case '%':
 					printf("%c", '%');
