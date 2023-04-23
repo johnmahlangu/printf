@@ -18,6 +18,9 @@ int _printf(const char *format, ...)
 	char c;
 	int j;
 	int d;
+	
+	if (format == NULL)
+		return (-1);
 
 	va_start(args, format);
 
