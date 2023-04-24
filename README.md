@@ -5,3 +5,8 @@ Tasks 1
 Handle the following conversion specifiers
 Tasks 2
 Handle the following custom conversion specifiers:
+Tasks 3
+.
+.
+.
+Tasks 15
