@@ -5,7 +5,8 @@
 
 /**
  * _printf - print according to a format
- * @format: ...
+ * @format: pointer to constant char
+ * @...: unkown argument
  * Return: number of characters
  */
 int _printf(const char *format, ...)
