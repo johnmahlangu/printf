@@ -3,3 +3,5 @@ Tasks 0
 Write a function that produces output according to a format.
 Tasks 1
 Handle the following conversion specifiers
+Tasks 2
+Handle the following custom conversion specifiers:
