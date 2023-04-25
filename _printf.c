@@ -40,7 +40,7 @@ case 's':
 s = va_arg(args, char *);
 for (cnt = 0; s[cnt] != '\0'; cnt++);
 len += cnt;
-return(write(1, format[i], 1));
+printf("%s", s);
 break;
 case 'c':
 c = va_arg(args, int);
